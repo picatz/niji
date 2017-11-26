@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  packetz:
+    github: picatz/packetz
+    commit: e0d519a78346fff0d7618a379bbe39c9af7958b6
+
