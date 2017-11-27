@@ -1,7 +1,7 @@
 all: niji
 
 niji:
-	crystal build --release bin/niji.cr -o bin/niji
+	crystal build --release src/niji.cr -o bin/niji
 
 PREFIX ?= /usr/local
 
