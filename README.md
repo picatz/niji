@@ -17,7 +17,7 @@ make
 make install
 ```
 
-Or be really brave and pipe this into `bash`:
+Or be really brave and pipe [this](https://github.com/picatz/niji/blob/master/install.sh) into `bash`:
 ```shell
 curl https://raw.githubusercontent.com/picatz/niji/master/install.sh | bash
 ```
