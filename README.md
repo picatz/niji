@@ -17,6 +17,11 @@ make
 make install
 ```
 
+Or be really brave and pipe this into `bash`:
+```shell
+curl https://raw.githubusercontent.com/picatz/niji/master/install.sh | bash
+```
+
 ## Usage
 
 Just run `niji` to start it.
