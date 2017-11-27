@@ -1,7 +1,11 @@
 <div align="center">
+
 # 虹 
-##### **Niji**
+
+#### **Niji**
+
 > Turn your network packets into a command-line rainbow.
+
 </div>
 
 ## Installation
