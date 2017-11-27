@@ -1,5 +1,5 @@
-require "packetz"
 require "./niji/*"
+require "packetz"
 
 module Niji
   def self.color(byte)
@@ -29,3 +29,16 @@ module Niji
   end
 
 end
+
+if ARGV.empty?
+  interface = Packetz.interfaces.default 
+else
+  interface = ARGV.first
+end
+
+unless Packetz.interfaces.all.includes?(interface)
+  puts "Interface #{interface} doesn't exist!"
+  exit 1
+end
+
+Niji.run(interface)
