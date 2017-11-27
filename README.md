@@ -2,7 +2,7 @@
 
 # 虹 
 
-#### **Niji**
+#### 🌈 **Niji**
 
 > Turn your network packets into a command-line rainbow.
 
