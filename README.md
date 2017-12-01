@@ -8,7 +8,7 @@
 
 </div>
 
-![screenshot](https://i.imgur.com/QJ7hTK9.jpg)
+![screenshot](https://i.imgur.com/dp7C4I4.jpg)
 
 ## Installation
 
