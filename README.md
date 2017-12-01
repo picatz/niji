@@ -8,6 +8,8 @@
 
 </div>
 
+![screenshot](https://i.imgur.com/QJ7hTK9.jpg)
+
 ## Installation
 
 ```shell
