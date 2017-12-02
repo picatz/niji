@@ -18,6 +18,8 @@ function install::niji() {
   git clone https://github.com/picatz/niji.git 
   # change into repo dir
   cd niji																			 
+  # install deps
+  shards install
   # build binary
   make																				 
   # install binary
