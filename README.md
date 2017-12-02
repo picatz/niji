@@ -12,6 +12,8 @@
 
 ## Installation
 
+To compile `niji`, you're going to need to have [`crystal`](https://crystal-lang.org/docs/installation/) installed.
+
 ```shell
 git clone https://github.com/picatz/niji.git
 cd niji

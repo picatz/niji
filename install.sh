@@ -2,6 +2,16 @@
 # Niji installation script.
 # Kent 'picat' Gruber
 
+# final error check
+function check::crystal() {
+  if which crystal >/dev/null; then
+    return 
+  else
+    echo "Crystal isn't installed! Please install Crystal: https://crystal-lang.org/docs/installation/"
+    exit 1
+  fi
+}
+
 # installation
 function install::niji() {
   # clone repo
@@ -29,6 +39,8 @@ function check::niji() {
 
 # main function
 function main(){
+  # check for crystal
+  check::crystal
   # install niji
   install::niji 
   # check if niji was installed
